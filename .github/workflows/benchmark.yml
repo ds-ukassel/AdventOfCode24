@@ -1,0 +1,73 @@
+name: Benchmark
+on:
+  workflow_dispatch:
+    inputs:
+      day:
+        required: true
+        description: The day to run this for
+        type: choice
+        options:
+          - "01"
+          - "02"
+          - "03"
+          - "04"
+          - "05"
+          - "06"
+          - "07"
+          - "08"
+          - "09"
+          - "10"
+          - "11"
+          - "12"
+          - "13"
+          - "14"
+          - "15"
+          - "16"
+          - "17"
+          - "18"
+          - "19"
+          - "20"
+          - "21"
+          - "22"
+          - "23"
+          - "24"
+          - "25"
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          path: "./main"
+      - name: Checkout fhessel
+        uses: actions/checkout@v2
+        with:
+          path: "./fhessel"
+          ref: "fhessel"
+      - name: Select Python 3.10
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      - name: Install Hyperfine
+        run: |
+          wget https://github.com/sharkdp/hyperfine/releases/download/v1.12.0/hyperfine_1.12.0_amd64.deb
+          sudo dpkg -i hyperfine_1.12.0_amd64.deb
+          rm hyperfine_1.12.0_amd64.deb
+      - name: Run Benchmark
+        run: ./main/.github/scripts/benchmark.sh ${{ github.event.inputs.day }}
+      - name: Prepare commit
+        working-directory: ./main
+        run: |
+          git config --local user.email "adventbot@emergencity.de"
+          git config --local user.name "adventbot"
+          git add performance/README.md performance/${{ github.event.inputs.day }}/
+          git commit -m "⏰ Updating Performance for Day ${{ github.event.inputs.day }}"
+      - name: Push changes
+        if: ${{ !env.ACT }}
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          directory: ./main
