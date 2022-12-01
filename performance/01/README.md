@@ -8,18 +8,19 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Branch | Return Code | Result Task 1 | Result Task 2 |
 | ------ | ----------- | ------------- | ------------- |
-| gh0st42 | ❌ No challenge executable | ❔ | ❔ |
 | fhessel | ✔️ 0 | ✔️ | ✔️ |
 | CryptoCopter | ✔️ 0 | ✔️ | ✔️ |
 | s1effen | ✔️ 0 | ✔️ | ✔️ |
+| gh0st42 | ✔️ 0 | ✔️ | ✔️ |
 
 ## Performance Results
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 2.2 ± 0.3 | 1.9 | 6.9 | 1.02 ± 0.16 |
-| `CryptoCopter` | 2.1 ± 0.2 | 1.9 | 6.3 | 1.00 |
-| `s1effen` | 2.2 ± 0.2 | 1.8 | 3.8 | 1.01 ± 0.11 |
+| `fhessel` | 1.8 ± 0.1 | 1.7 | 5.4 | 1.00 |
+| `CryptoCopter` | 1.8 ± 0.3 | 1.7 | 12.0 | 1.01 ± 0.20 |
+| `s1effen` | 1.8 ± 0.1 | 1.7 | 2.2 | 1.01 ± 0.08 |
+| `gh0st42` | 1.8 ± 0.1 | 1.7 | 3.8 | 1.01 ± 0.09 |
 
 
 ## Used Commit SHAs
@@ -29,5 +30,6 @@ Each branch is checked whether it returns the right results and does not return 
 | fhessel | [d6d91c5](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/d6d91c514c3db050cf1a496cd9a65a722ce65a36/01) | [fhessel.txt](01/fhessel.txt) |
 | CryptoCopter | [0b00f82](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/0b00f82ce26824ed8cbe7a663e66d8ce873deace/01) | [CryptoCopter.txt](01/CryptoCopter.txt) |
 | s1effen | [f889ed3](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/f889ed3b64288ce194ebaf591901ffff52a7c2f7/01) | [s1effen.txt](01/s1effen.txt) |
+| gh0st42 | [e40f70f](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/e40f70f0746280a3d3687e45444f8d0d2a69616a/01) | [gh0st42.txt](01/gh0st42.txt) |
 
 
