@@ -36,10 +36,11 @@ echo '| Branch | Return Code | Result Task 1 | Result Task 2 |' >> "$RESULT"
 echo '| ------ | ----------- | ------------- | ------------- |' >> "$RESULT"
 
 # Preparing
+touch "$WORKROOT/branches_with_challenge"
 for BRANCH in $(cat "$WORKROOT/branches_no_skip"); do
     echo "🎄 Look! $BRANCH is preparing some nice ornaments for the Christmas tree!"
     (cd "$WORKROOT/$BRANCH/$DAY" && ./prepare.sh)
-    if [ -f "$WORKROOT/$BRANCH/$DAY" ]; then
+    if [ -f "$WORKROOT/$BRANCH/$DAY/challenge" ]; then
         echo "🎁 $BRANCH has prepared a nice gift for us!"
         echo "$BRANCH" >> "$WORKROOT/branches_with_challenge"
     else
