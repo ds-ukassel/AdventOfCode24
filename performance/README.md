@@ -16,9 +16,9 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 1.8 ± 0.2 | 1.6 | 4.8 | 1.01 ± 0.10 |
-| `CryptoCopter` | 1.8 ± 0.2 | 1.6 | 6.8 | 1.00 ± 0.11 |
-| `s1effen` | 1.8 ± 0.1 | 1.7 | 2.4 | 1.00 |
+| `fhessel` | 1.8 ± 0.1 | 1.6 | 3.9 | 1.01 ± 0.09 |
+| `CryptoCopter` | 1.8 ± 0.1 | 1.6 | 2.7 | 1.00 ± 0.08 |
+| `s1effen` | 1.8 ± 0.1 | 1.6 | 3.0 | 1.00 |
 
 
 ### Used Commit SHAs
