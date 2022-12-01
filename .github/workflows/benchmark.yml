@@ -42,10 +42,13 @@ jobs:
         with:
           path: "./main"
       - name: Checkout fhessel
+CryptoCopter
         uses: actions/checkout@v2
         with:
-          path: "./fhessel"
-          ref: "fhessel"
+          path: "./fhessel
+CryptoCopter"
+          ref: "fhessel
+CryptoCopter"
       - name: Select Python 3.10
         uses: actions/setup-python@v2
         with:
