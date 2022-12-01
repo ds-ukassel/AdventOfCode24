@@ -8,6 +8,7 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Branch | Return Code | Result Task 1 | Result Task 2 |
 | ------ | ----------- | ------------- | ------------- |
+| s1effen | ❌ No challenge executable | ❔ | ❔ |
 | fhessel | ✔️ 0 | ✔️ | ✔️ |
 | CryptoCopter | ✔️ 0 | ✔️ | ✔️ |
 
@@ -15,8 +16,8 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 1.8 ± 0.1 | 1.7 | 4.8 | 1.00 |
-| `CryptoCopter` | 1.8 ± 0.1 | 1.7 | 3.0 | 1.00 ± 0.09 |
+| `fhessel` | 1.8 ± 0.1 | 1.6 | 5.5 | 1.01 ± 0.14 |
+| `CryptoCopter` | 1.8 ± 0.2 | 1.6 | 7.4 | 1.00 |
 
 
 ## Used Commit SHAs
