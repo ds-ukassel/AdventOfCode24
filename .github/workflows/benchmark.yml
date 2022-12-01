@@ -56,6 +56,11 @@ jobs:
         with:
           path: "./s1effen"
           ref: "s1effen"
+      - name: Checkout gh0st42
+        uses: actions/checkout@v2
+        with:
+          path: "./gh0st42"
+          ref: "gh0st42"
       - name: Select Python 3.10
         uses: actions/setup-python@v2
         with:
