@@ -61,6 +61,11 @@ jobs:
         with:
           path: "./gh0st42"
           ref: "gh0st42"
+      - name: Checkout fput
+        uses: actions/checkout@v2
+        with:
+          path: "./fput"
+          ref: "fput"
       - name: Select Python 3.10
         uses: actions/setup-python@v2
         with:
