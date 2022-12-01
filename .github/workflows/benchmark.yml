@@ -51,6 +51,11 @@ jobs:
         with:
           path: "./CryptoCopter"
           ref: "CryptoCopter"
+      - name: Checkout s1effen
+        uses: actions/checkout@v2
+        with:
+          path: "./s1effen"
+          ref: "s1effen"
       - name: Select Python 3.10
         uses: actions/setup-python@v2
         with:
