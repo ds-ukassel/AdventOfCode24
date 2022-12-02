@@ -3,5 +3,10 @@
         "1": "70116",
         "2": "206582",
         "name": "Calorie Counting"
+    },
+    "02": {
+        "1": "13565",
+        "2": "12424",
+        "name": "Rock Paper Scissors"
     }
 }
