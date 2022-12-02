@@ -51,13 +51,14 @@ Each branch is checked whether it returns the right results and does not return 
 | fput | ❌ No challenge executable | ❔ | ❔ |
 | fhessel | ✔️ 0 | ✔️ | ✔️ |
 | gh0st42 | ✔️ 0 | ✔️ | ✔️ |
+| tobi | ❌ 126 | ❌ | ❌ |
 
 ### Performance Results
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 1.8 ± 0.1 | 1.7 | 4.7 | 1.00 |
-| `gh0st42` | 1.8 ± 0.3 | 1.7 | 6.7 | 1.02 ± 0.19 |
+| `fhessel` | 1.8 ± 0.1 | 1.6 | 2.5 | 1.00 |
+| `gh0st42` | 1.8 ± 0.1 | 1.6 | 4.2 | 1.00 ± 0.10 |
 
 
 ### Used Commit SHAs
@@ -65,6 +66,7 @@ Each branch is checked whether it returns the right results and does not return 
 | Contributor | Commit SHA | Output Testrun |
 | ----------- | ---------- | -------------- |
 | fhessel | [472a581](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/472a581f31d48a51ff8be79b5fac986e0e9dc3f5/02) | [fhessel.txt](02/fhessel.txt) |
-| gh0st42 | [97a5391](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/97a53918dbac9e60a51c2dd867fbdce370ad8429/02) | [gh0st42.txt](02/gh0st42.txt) |
+| gh0st42 | [ad149bc](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/ad149bcbb5ace8ec9bced747e8340897e5a7df89/02) | [gh0st42.txt](02/gh0st42.txt) |
+| tobi | [47f4627](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/47f4627dd71fa0f21c811824f05c70adf1aab331/02) | [tobi.txt](02/tobi.txt) |
 
 
