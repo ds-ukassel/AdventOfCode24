@@ -1,1 +1,2 @@
-./main/.github/scripts/benchmark.sh: line 57: ./challenge: Permission denied
+13565
+12424
