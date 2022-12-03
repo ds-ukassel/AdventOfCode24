@@ -54,7 +54,8 @@ mkdir -p "$RESULT_DIR/$DAY"
 for BRANCH in $(cat "$WORKROOT/branches_with_challenge"); do
     echo "Testing $BRANCH..."
     OUTFILE="$RESULT_DIR/$DAY/$BRANCH.txt"
-    (cd "$WORKROOT/$BRANCH/$DAY" && ./challenge "$INPUT_FILE") > "$OUTFILE" 2>&1
+    ERRFILE="$RESULT_DIR/$DAY/$BRANCH-stderr.txt"
+    (cd "$WORKROOT/$BRANCH/$DAY" && ./challenge "$INPUT_FILE") > "$OUTFILE" 2> "$STDERR"
     RC_CHALLENGE=$?
     RC_FLAG="✔️"
     TASK1_FLAG="✔️"
@@ -117,7 +118,7 @@ for BRANCH in $(cat "$WORKROOT/branches_with_challenge"); do
     SHA1="$(cd "$WORKROOT/$BRANCH" && git rev-parse --short HEAD)"
     LONGSHA1="$(cd "$WORKROOT/$BRANCH" && git rev-parse HEAD)"
     BROWSE_URL="https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/$LONGSHA1/$DAY"
-    echo "| $BRANCH | [$SHA1]($BROWSE_URL) | [$BRANCH.txt]($DAY/$BRANCH.txt) |" >> "$RESULT"
+    echo "| $BRANCH | [$SHA1]($BROWSE_URL) | [stdout]($DAY/$BRANCH.txt) [stderr]($DAY/$BRANCH-stderr.txt) |" >> "$RESULT"
 done
 echo "" >> "$RESULT"
 echo "" >> "$RESULT"
