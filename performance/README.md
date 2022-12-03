@@ -92,19 +92,14 @@ Each branch is checked whether it returns the right results and does not return 
 | ------ | ----------- | ------------- | ------------- |
 | CryptoCopter | ❌ No challenge executable | ❔ | ❔ |
 | s1effen | ❌ No challenge executable | ❔ | ❔ |
-| fhessel | ✔️ 0 | ✔️ | ✔️ |
-| gh0st42 | ✔️ 0 | ✔️ | ❌ |
-| fput | ✔️ 0 | ✔️ | ✔️ |
-| tobi | ✔️ 0 | ✔️ | ✔️ |
+| fhessel | ✔️ 0 | ❌ (got `829800`) | ❌ (got `270800`) |
+| gh0st42 | ✔️ 0 | ❌ (got `829800`) | ❌ (got `246112`) |
+| fput | ✔️ 0 | ❌ (got `829800`) | ❌ (got `270800`) |
+| tobi | ✔️ 0 | ❌ (got `829800`) | ❌ (got `270800`) |
 
 ### Performance Results
 
-| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
-|:---|---:|---:|---:|---:|
-| `fhessel` | 192.9 ± 4.8 | 185.9 | 199.7 | 1.00 |
-| `fput` | 1076.2 ± 19.7 | 1049.9 | 1104.1 | 5.58 ± 0.17 |
-| `tobi` | 288.2 ± 5.9 | 281.3 | 301.0 | 1.49 ± 0.05 |
-
+No branch provided the correct result, so no performance measurements were taken.
 
 ### Used Commit SHAs
 
