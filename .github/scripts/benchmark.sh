@@ -55,7 +55,7 @@ for BRANCH in $(cat "$WORKROOT/branches_with_challenge"); do
     echo "Testing $BRANCH..."
     OUTFILE="$RESULT_DIR/$DAY/$BRANCH.txt"
     ERRFILE="$RESULT_DIR/$DAY/$BRANCH-stderr.txt"
-    (cd "$WORKROOT/$BRANCH/$DAY" && ./challenge "$INPUT_FILE" > "$OUTFILE" 2> "$STDERR")
+    (cd "$WORKROOT/$BRANCH/$DAY" && ./challenge "$INPUT_FILE" > "$OUTFILE" 2> "$ERRFILE")
     RC_CHALLENGE=$?
     RC_FLAG="✔️"
     TASK1_FLAG="✔️"
