@@ -69,18 +69,16 @@ for BRANCH in $(cat "$WORKROOT/branches_with_challenge"); do
         TASK2_FLAG="❌"
         FAILED=1
     else
-        grep -v "make:" "$OUTFILE" | grep -q "$SOLUTION_TASK1"
-        RESULT_TASK1=$?
-        grep -v "make:" "$OUTFILE" | grep -q "$SOLUTION_TASK2"
-        RESULT_TASK2=$?
+        RESULT_TASK1="$(head -n1 $OUTFILE)"
+        RESULT_TASK2="$(head -n2 $OUTFILE | tail -n1)"
         if [ $RESULT_TASK1 -ne 0 ]; then
             echo "Wrong solution for Task 1: Got $RESULT_TASK1, expected $SOLUTION_TASK1"
-            TASK1_FLAG="❌"
+            TASK1_FLAG="❌ (got \`$RESULT_TASK1\`)"
             FAILED=1
         fi
         if [ $RESULT_TASK2 -ne 0 ]; then
             echo "Wrong solution for Task 2: Got $RESULT_TASK2, expected $SOLUTION_TASK2"
-            TASK2_FLAG="❌"
+            TASK2_FLAG="❌ (got \`$RESULT_TASK2\`)"
             FAILED=1
         fi
     fi
