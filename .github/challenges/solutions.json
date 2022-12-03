@@ -8,5 +8,10 @@
         "1": "1356500",
         "2": "1242400",
         "name": "Rock Paper Scissors"
+    },
+    "03": {
+        "1": "829800",
+        "2": "270800",
+        "name": "Rucksack Reorganization"
     }
 }
