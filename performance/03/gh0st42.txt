@@ -1,2 +1,4 @@
+number of lines in file: 30001
 829800
+number of chunks: 10000
 246112
