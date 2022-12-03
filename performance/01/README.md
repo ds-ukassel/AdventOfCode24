@@ -19,19 +19,19 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 18.0 ± 0.5 | 17.7 | 23.9 | 16.93 ± 2.79 |
-| `CryptoCopter` | 14.9 ± 0.2 | 14.6 | 17.1 | 14.00 ± 2.28 |
-| `s1effen` | 18.2 ± 0.3 | 17.8 | 19.5 | 17.14 ± 2.79 |
-| `gh0st42` | 1.1 ± 0.2 | 0.7 | 4.7 | 1.00 |
-| `fput` | 5.6 ± 0.2 | 5.3 | 8.4 | 5.28 ± 0.88 |
-| `tobi` | 2.0 ± 0.0 | 1.9 | 2.5 | 1.87 ± 0.31 |
+| `fhessel` | 121.3 ± 1.7 | 118.5 | 124.9 | 1.82 ± 0.03 |
+| `CryptoCopter` | 133.4 ± 2.8 | 129.3 | 139.1 | 2.00 ± 0.04 |
+| `s1effen` | 138.7 ± 3.5 | 135.3 | 148.6 | 2.08 ± 0.05 |
+| `gh0st42` | 66.6 ± 0.3 | 66.2 | 68.0 | 1.00 |
+| `fput` | 204.7 ± 4.5 | 199.9 | 212.6 | 3.07 ± 0.07 |
+| `tobi` | 101.5 ± 1.2 | 100.7 | 106.3 | 1.52 ± 0.02 |
 
 
 ## Used Commit SHAs
 
 | Contributor | Commit SHA | Output Testrun |
 | ----------- | ---------- | -------------- |
-| fhessel | [472a581](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/472a581f31d48a51ff8be79b5fac986e0e9dc3f5/01) | [fhessel.txt](01/fhessel.txt) |
+| fhessel | [5a04bd1](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/5a04bd105e40881b26fbf3965436e0414844e8a0/01) | [fhessel.txt](01/fhessel.txt) |
 | CryptoCopter | [173bbed](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/173bbed88e454ffe99546b85ccf6c3f35bae991a/01) | [CryptoCopter.txt](01/CryptoCopter.txt) |
 | s1effen | [b7482af](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/b7482af63033f261e25bcc5c81726bdf4e6a079c/01) | [s1effen.txt](01/s1effen.txt) |
 | gh0st42 | [49b222c](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/49b222ce63e9c2e7d0561602450b394fadf44f90/01) | [gh0st42.txt](01/gh0st42.txt) |
