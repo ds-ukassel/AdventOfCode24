@@ -95,7 +95,7 @@ if [ -f "$WORKROOT/successful_branches" ]; then
     # Doing the actual performance test
     ARGS=("--warmup" "5" "--export-markdown" "$HYPERFINE_OUTPUT" "--ignore-failure")
     for BRANCH in $(cat "$WORKROOT/successful_branches"); do
-        ARGS+=("--command-name" "$BRANCH" "make -C $WORKROOT/$BRANCH/$DAY run")
+        ARGS+=("--command-name" "$BRANCH" "$WORKROOT/$BRANCH/$DAY/challenge $INPUT_FILE")
     done
     hyperfine  "${ARGS[@]}"
 
