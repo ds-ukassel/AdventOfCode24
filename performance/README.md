@@ -93,7 +93,7 @@ Each branch is checked whether it returns the right results and does not return 
 | fhessel | ✔️ 0 | ✔️ | ✔️ |
 | CryptoCopter | ✔️ 0 | ✔️ | ✔️ |
 | s1effen | ✔️ 0 | ✔️ | ✔️ |
-| gh0st42 | ✔️ 0 | ✔️ | ❌ (got `number of chunks: 10000`) |
+| gh0st42 | ✔️ 0 | ✔️ | ✔️ |
 | fput | ✔️ 0 | ✔️ | ✔️ |
 | tobi | ✔️ 0 | ✔️ | ✔️ |
 
@@ -101,11 +101,12 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 160.9 ± 5.0 | 156.6 | 174.2 | 1.01 ± 0.03 |
-| `CryptoCopter` | 163.0 ± 3.2 | 158.8 | 172.8 | 1.02 ± 0.02 |
-| `s1effen` | 174.5 ± 2.2 | 170.5 | 178.5 | 1.09 ± 0.02 |
-| `fput` | 775.3 ± 1.9 | 772.8 | 778.3 | 4.86 ± 0.06 |
-| `tobi` | 159.6 ± 1.8 | 156.2 | 163.4 | 1.00 |
+| `fhessel` | 155.7 ± 1.8 | 151.8 | 159.4 | 6.22 ± 0.10 |
+| `CryptoCopter` | 159.5 ± 1.4 | 157.0 | 163.3 | 6.37 ± 0.09 |
+| `s1effen` | 167.8 ± 2.6 | 164.6 | 174.4 | 6.70 ± 0.13 |
+| `gh0st42` | 25.0 ± 0.3 | 24.6 | 26.3 | 1.00 |
+| `fput` | 887.3 ± 7.7 | 875.4 | 905.0 | 35.43 ± 0.52 |
+| `tobi` | 155.5 ± 1.7 | 152.3 | 158.5 | 6.21 ± 0.10 |
 
 
 ### Used Commit SHAs
@@ -115,7 +116,7 @@ Each branch is checked whether it returns the right results and does not return 
 | fhessel | [5a04bd1](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/5a04bd105e40881b26fbf3965436e0414844e8a0/03) | [fhessel.txt](03/fhessel.txt) |
 | CryptoCopter | [fe44274](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/fe442741c17afdfc3a7f83b624e591a97ab583a1/03) | [CryptoCopter.txt](03/CryptoCopter.txt) |
 | s1effen | [4fb72c5](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/4fb72c53f9a2f0ed3e83e73fd488541f2f6a577d/03) | [s1effen.txt](03/s1effen.txt) |
-| gh0st42 | [b1ba71f](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/b1ba71fd23e7a28811019669828bcea86e913fb8/03) | [gh0st42.txt](03/gh0st42.txt) |
+| gh0st42 | [e8739e0](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/e8739e0be02d300cc79fb2611bb6bc3edece1b49/03) | [gh0st42.txt](03/gh0st42.txt) |
 | fput | [3e19e90](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/3e19e907fab9e1a811356837cdd6b806e65c43cc/03) | [fput.txt](03/fput.txt) |
 | tobi | [df0f64e](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/df0f64ecf3484070cd5653588e5d78ae7b964d55/03) | [tobi.txt](03/tobi.txt) |
 
