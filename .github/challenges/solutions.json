@@ -13,5 +13,10 @@
         "1": "829800",
         "2": "270800",
         "name": "Rucksack Reorganization"
+    },
+    "04": {
+        "1": "21650",
+        "2": "42600",
+        "name": "Camp Cleanup"
     }
 }
