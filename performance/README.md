@@ -131,8 +131,8 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Branch | Return Code | Result Task 1 | Result Task 2 |
 | ------ | ----------- | ------------- | ------------- |
-| CryptoCopter | ❌ No challenge executable | ❔ | ❔ |
 | fhessel | ✔️ 0 | ✔️ | ✔️ |
+| CryptoCopter | ✔️ 0 | ✔️ | ✔️ |
 | s1effen | ✔️ 0 | ✔️ | ✔️ |
 | gh0st42 | ✔️ 0 | ✔️ | ✔️ |
 | fput | ✔️ 0 | ✔️ | ✔️ |
@@ -142,11 +142,12 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 114.3 ± 4.4 | 105.9 | 124.2 | 2.83 ± 0.23 |
-| `s1effen` | 440.5 ± 12.1 | 425.4 | 463.0 | 10.90 ± 0.85 |
-| `gh0st42` | 40.4 ± 3.0 | 35.4 | 52.5 | 1.00 |
-| `fput` | 97.1 ± 3.5 | 91.5 | 104.7 | 2.40 ± 0.20 |
-| `tobi` | 127.9 ± 7.4 | 119.3 | 149.0 | 3.16 ± 0.30 |
+| `fhessel` | 97.4 ± 1.2 | 95.6 | 101.8 | 3.12 ± 0.06 |
+| `CryptoCopter` | 108.5 ± 3.4 | 105.8 | 121.6 | 3.48 ± 0.12 |
+| `s1effen` | 407.2 ± 3.5 | 402.1 | 412.2 | 13.04 ± 0.21 |
+| `gh0st42` | 31.2 ± 0.4 | 30.8 | 34.2 | 1.00 |
+| `fput` | 77.0 ± 0.6 | 76.0 | 79.2 | 2.47 ± 0.04 |
+| `tobi` | 114.5 ± 0.8 | 112.9 | 116.1 | 3.67 ± 0.06 |
 
 
 ### Used Commit SHAs
@@ -154,6 +155,7 @@ Each branch is checked whether it returns the right results and does not return 
 | Contributor | Commit SHA | Output Testrun |
 | ----------- | ---------- | -------------- |
 | fhessel | [281be9e](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/281be9e8f7789e3ddecff7edf1ec2f11a5ae959b/04) | [stdout](04/fhessel.txt) [stderr](04/fhessel-stderr.txt) |
+| CryptoCopter | [4df8407](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/4df8407c0c0345e4bc03ad050e35eb42832f3f3f/04) | [stdout](04/CryptoCopter.txt) [stderr](04/CryptoCopter-stderr.txt) |
 | s1effen | [a273d6c](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/a273d6c7ef082a4890d638c771282864e1f12224/04) | [stdout](04/s1effen.txt) [stderr](04/s1effen-stderr.txt) |
 | gh0st42 | [0c0b228](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/0c0b228e81493db9bd21889b1cbd4f9ef74e974f/04) | [stdout](04/gh0st42.txt) [stderr](04/gh0st42-stderr.txt) |
 | fput | [224c136](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/224c13692717936d4fdb813cc66ab353cb00711f/04) | [stdout](04/fput.txt) [stderr](04/fput-stderr.txt) |
