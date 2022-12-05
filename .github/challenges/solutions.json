@@ -18,5 +18,10 @@
         "1": "21650",
         "2": "42600",
         "name": "Camp Cleanup"
+    },
+    "05": {
+        "1": "JCMHLVGMG",
+        "2": "LVMRWSSPZ",
+        "name": "Supply Stacks"
     }
 }
