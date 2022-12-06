@@ -222,10 +222,10 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 26.0 ± 0.2 | 25.7 | 27.0 | 9.04 ± 0.30 |
-| `s1effen` | 19.8 ± 0.3 | 19.5 | 22.1 | 6.88 ± 0.24 |
-| `gh0st42` | 2.9 ± 0.1 | 2.7 | 3.8 | 1.00 |
-| `tobi` | 20.1 ± 0.5 | 19.7 | 24.7 | 6.98 ± 0.28 |
+| `fhessel` | 34.1 ± 1.3 | 31.8 | 37.5 | 9.63 ± 1.72 |
+| `s1effen` | 26.2 ± 1.5 | 23.8 | 34.7 | 7.42 ± 1.36 |
+| `gh0st42` | 3.5 ± 0.6 | 2.6 | 12.8 | 1.00 |
+| `tobi` | 26.8 ± 1.6 | 24.5 | 36.1 | 7.56 ± 1.39 |
 
 
 ### Used Commit SHAs
@@ -233,7 +233,7 @@ Each branch is checked whether it returns the right results and does not return 
 | Contributor | Commit SHA | Output Testrun |
 | ----------- | ---------- | -------------- |
 | fhessel | [07376b9](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/07376b988207787bedeaa364e9e8dc486878a4d0/06) | [stdout](06/fhessel.txt) [stderr](06/fhessel-stderr.txt) |
-| s1effen | [9355d8a](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/9355d8abdf39336d296417f40cadf254221c69ad/06) | [stdout](06/s1effen.txt) [stderr](06/s1effen-stderr.txt) |
+| s1effen | [ac593dc](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/ac593dc324b87a84236315c8c8dd8c9d5d98c756/06) | [stdout](06/s1effen.txt) [stderr](06/s1effen-stderr.txt) |
 | gh0st42 | [75af172](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/75af17250e24ccc63480331829144b39ee4b961d/06) | [stdout](06/gh0st42.txt) [stderr](06/gh0st42-stderr.txt) |
 | tobi | [a2e0a87](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/a2e0a876a17dae1657e3691e4e6bb6deadbb679c/06) | [stdout](06/tobi.txt) [stderr](06/tobi-stderr.txt) |
 
