@@ -172,21 +172,22 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Branch | Return Code | Result Task 1 | Result Task 2 |
 | ------ | ----------- | ------------- | ------------- |
-| fput | ❌ No challenge executable | ❔ | ❔ |
 | tobi | ❌ No challenge executable | ❔ | ❔ |
 | fhessel | ✔️ 0 | ✔️ | ✔️ |
 | CryptoCopter | ✔️ 0 | ✔️ | ✔️ |
 | s1effen | ✔️ 0 | ✔️ | ✔️ |
 | gh0st42 | ✔️ 0 | ✔️ | ✔️ |
+| fput | ✔️ 0 | ✔️ | ✔️ |
 
 ### Performance Results
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 23.6 ± 1.3 | 22.2 | 29.7 | 18.38 ± 3.62 |
-| `CryptoCopter` | 33.3 ± 1.7 | 31.7 | 43.6 | 25.90 ± 5.08 |
-| `s1effen` | 23.7 ± 0.9 | 22.4 | 30.4 | 18.44 ± 3.56 |
-| `gh0st42` | 1.3 ± 0.2 | 1.1 | 4.6 | 1.00 |
+| `fhessel` | 23.1 ± 1.1 | 21.4 | 28.4 | 18.49 ± 5.82 |
+| `CryptoCopter` | 33.5 ± 2.3 | 30.6 | 44.7 | 26.77 ± 8.53 |
+| `s1effen` | 23.2 ± 1.2 | 21.3 | 27.6 | 18.60 ± 5.87 |
+| `gh0st42` | 1.2 ± 0.4 | 0.8 | 6.0 | 1.00 |
+| `fput` | 12.6 ± 1.2 | 10.7 | 19.3 | 10.10 ± 3.29 |
 
 
 ### Used Commit SHAs
@@ -197,5 +198,6 @@ Each branch is checked whether it returns the right results and does not return 
 | CryptoCopter | [f3b4b05](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/f3b4b05a32c08253c1c06373786ff67eab042de9/05) | [stdout](05/CryptoCopter.txt) [stderr](05/CryptoCopter-stderr.txt) |
 | s1effen | [a273d6c](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/a273d6c7ef082a4890d638c771282864e1f12224/05) | [stdout](05/s1effen.txt) [stderr](05/s1effen-stderr.txt) |
 | gh0st42 | [0c0b228](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/0c0b228e81493db9bd21889b1cbd4f9ef74e974f/05) | [stdout](05/gh0st42.txt) [stderr](05/gh0st42-stderr.txt) |
+| fput | [1f446f8](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/1f446f87b5c423b48b5ab9a272cf45463d97f7d2/05) | [stdout](05/fput.txt) [stderr](05/fput-stderr.txt) |
 
 
