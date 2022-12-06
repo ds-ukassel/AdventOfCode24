@@ -215,7 +215,7 @@ Each branch is checked whether it returns the right results and does not return 
 | CryptoCopter | ❌ No challenge executable | ❔ | ❔ |
 | gh0st42 | ❌ No challenge executable | ❔ | ❔ |
 | fput | ❌ No challenge executable | ❔ | ❔ |
-| s1effen | ❌ 126 | ❌ | ❌ |
+| s1effen | ❌ 1 | ❌ | ❌ |
 | tobi | ❌ 1 | ❌ | ❌ |
 
 ### Performance Results
@@ -226,7 +226,7 @@ No branch provided the correct result, so no performance measurements were taken
 
 | Contributor | Commit SHA | Output Testrun |
 | ----------- | ---------- | -------------- |
-| s1effen | [211e8ba](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/211e8baee91cc6815b89d573f083543cfb3bd7b6/06) | [stdout](06/s1effen.txt) [stderr](06/s1effen-stderr.txt) |
+| s1effen | [9355d8a](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/9355d8abdf39336d296417f40cadf254221c69ad/06) | [stdout](06/s1effen.txt) [stderr](06/s1effen-stderr.txt) |
 | tobi | [a2e0a87](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/a2e0a876a17dae1657e3691e4e6bb6deadbb679c/06) | [stdout](06/tobi.txt) [stderr](06/tobi-stderr.txt) |
 
 
