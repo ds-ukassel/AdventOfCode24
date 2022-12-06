@@ -101,24 +101,24 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 184.8 ± 6.6 | 176.3 | 200.2 | 7.01 ± 0.60 |
-| `CryptoCopter` | 192.5 ± 6.2 | 183.6 | 201.4 | 7.31 ± 0.61 |
-| `s1effen` | 192.4 ± 4.6 | 184.8 | 200.9 | 7.31 ± 0.59 |
-| `gh0st42` | 26.3 ± 2.0 | 23.1 | 34.7 | 1.00 |
-| `fput` | 1030.1 ± 15.2 | 1004.8 | 1049.9 | 39.11 ± 3.06 |
-| `tobi` | 189.4 ± 6.0 | 177.2 | 202.5 | 7.19 ± 0.60 |
+| `fhessel` | 161.8 ± 3.5 | 158.4 | 170.5 | 8.25 ± 0.20 |
+| `CryptoCopter` | 162.8 ± 2.5 | 157.9 | 166.0 | 8.30 ± 0.16 |
+| `s1effen` | 174.1 ± 2.3 | 170.4 | 178.6 | 8.88 ± 0.15 |
+| `gh0st42` | 19.6 ± 0.2 | 19.3 | 20.7 | 1.00 |
+| `fput` | 489.3 ± 1.0 | 487.6 | 490.9 | 24.95 ± 0.29 |
+| `tobi` | 159.1 ± 1.6 | 156.4 | 161.2 | 8.11 ± 0.12 |
 
 
 ### Used Commit SHAs
 
 | Contributor | Commit SHA | Output Testrun |
 | ----------- | ---------- | -------------- |
-| fhessel | [9173085](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/91730850b488f69def6c0fedbd77808efad341b1/03) | [stdout](03/fhessel.txt) [stderr](03/fhessel-stderr.txt) |
-| CryptoCopter | [fe44274](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/fe442741c17afdfc3a7f83b624e591a97ab583a1/03) | [stdout](03/CryptoCopter.txt) [stderr](03/CryptoCopter-stderr.txt) |
-| s1effen | [4fb72c5](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/4fb72c53f9a2f0ed3e83e73fd488541f2f6a577d/03) | [stdout](03/s1effen.txt) [stderr](03/s1effen-stderr.txt) |
-| gh0st42 | [e8739e0](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/e8739e0be02d300cc79fb2611bb6bc3edece1b49/03) | [stdout](03/gh0st42.txt) [stderr](03/gh0st42-stderr.txt) |
-| fput | [3e19e90](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/3e19e907fab9e1a811356837cdd6b806e65c43cc/03) | [stdout](03/fput.txt) [stderr](03/fput-stderr.txt) |
-| tobi | [df0f64e](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/df0f64ecf3484070cd5653588e5d78ae7b964d55/03) | [stdout](03/tobi.txt) [stderr](03/tobi-stderr.txt) |
+| fhessel | [07376b9](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/07376b988207787bedeaa364e9e8dc486878a4d0/03) | [stdout](03/fhessel.txt) [stderr](03/fhessel-stderr.txt) |
+| CryptoCopter | [f751f1e](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/f751f1e7de71e1553d7406a17a9a7783988f9085/03) | [stdout](03/CryptoCopter.txt) [stderr](03/CryptoCopter-stderr.txt) |
+| s1effen | [565d790](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/565d790c324d28c1106330d267ed470e6421a939/03) | [stdout](03/s1effen.txt) [stderr](03/s1effen-stderr.txt) |
+| gh0st42 | [75af172](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/75af17250e24ccc63480331829144b39ee4b961d/03) | [stdout](03/gh0st42.txt) [stderr](03/gh0st42-stderr.txt) |
+| fput | [ef20d07](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/ef20d07f3eaa6fd5a8db58949f7c75ec46256b23/03) | [stdout](03/fput.txt) [stderr](03/fput-stderr.txt) |
+| tobi | [a2e0a87](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/a2e0a876a17dae1657e3691e4e6bb6deadbb679c/03) | [stdout](03/tobi.txt) [stderr](03/tobi-stderr.txt) |
 
 
 ## Day 04: Camp Cleanup
