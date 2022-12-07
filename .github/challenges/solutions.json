@@ -28,5 +28,10 @@
         "1": "1238",
         "2": "3037",
         "name": "Tuning Trouble"
+    },
+    "07": {
+        "1": "1086293",
+        "2": "366028",
+        "name": "No Space Left On Device"
     }
 }
