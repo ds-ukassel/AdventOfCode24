@@ -10,20 +10,17 @@ Each branch is checked whether it returns the right results and does not return 
 | ------ | ----------- | ------------- | ------------- |
 | fput | ❌ No challenge executable | ❔ | ❔ |
 | fhessel | ✔️ 0 | ✔️ | ✔️ |
-| CryptoCopter | ✔️ 0 | ✔️ | ✔️ |
-| s1effen | ✔️ 0 | ✔️ | ✔️ |
-| gh0st42 | ✔️ 0 | ✔️ | ✔️ |
+| CryptoCopter | ✔️ 0 | ✔️ | ❌ (got `681155`) |
+| s1effen | ✔️ 0 | ✔️ | ❌ (got `681155`) |
+| gh0st42 | ✔️ 0 | ✔️ | ❌ (got `681155`) |
 | tobi | ✔️ 0 | ✔️ | ✔️ |
 
 ## Performance Results
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 25.7 ± 0.4 | 25.0 | 27.4 | 19.02 ± 0.91 |
-| `CryptoCopter` | 34.8 ± 0.5 | 34.0 | 36.3 | 25.80 ± 1.22 |
-| `s1effen` | 19.0 ± 0.4 | 18.5 | 21.3 | 14.08 ± 0.69 |
-| `gh0st42` | 1.3 ± 0.1 | 1.3 | 2.2 | 1.00 |
-| `tobi` | 23.0 ± 0.3 | 22.6 | 24.4 | 17.06 ± 0.80 |
+| `fhessel` | 31.5 ± 2.2 | 27.3 | 37.9 | 1.11 ± 0.10 |
+| `tobi` | 28.4 ± 1.6 | 24.2 | 34.0 | 1.00 |
 
 
 ## Used Commit SHAs
