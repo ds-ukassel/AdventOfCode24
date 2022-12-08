@@ -253,15 +253,22 @@ Each branch is checked whether it returns the right results and does not return 
 | Branch | Return Code | Result Task 1 | Result Task 2 |
 | ------ | ----------- | ------------- | ------------- |
 | fput | ❌ No challenge executable | ❔ | ❔ |
-| fhessel | ✔️ 0 | ❌ (got `1348005`) | ❌ (got `12785886`) |
-| CryptoCopter | ✔️ 0 | ❌ (got `1348005`) | ❌ (got `12785886`) |
-| s1effen | ✔️ 0 | ❌ (got `1348005`) | ❌ (got `12785886`) |
-| gh0st42 | ✔️ 0 | ❌ (got `1348005`) | ❌ (got `12785886`) |
-| tobi | ✔️ 0 | ❌ (got `1348005`) | ❌ (got `12785886`) |
+| fhessel | ✔️ 0 | ✔️ | ✔️ |
+| CryptoCopter | ✔️ 0 | ✔️ | ✔️ |
+| s1effen | ✔️ 0 | ✔️ | ✔️ |
+| gh0st42 | ✔️ 0 | ✔️ | ✔️ |
+| tobi | ✔️ 0 | ✔️ | ✔️ |
 
 ### Performance Results
 
-No branch provided the correct result, so no performance measurements were taken.
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
+|:---|---:|---:|---:|---:|
+| `fhessel` | 25.9 ± 0.3 | 25.3 | 27.0 | 11.59 ± 0.94 |
+| `CryptoCopter` | 16.1 ± 0.3 | 15.7 | 18.0 | 7.22 ± 0.59 |
+| `s1effen` | 19.2 ± 0.4 | 18.5 | 21.4 | 8.60 ± 0.71 |
+| `gh0st42` | 2.2 ± 0.2 | 2.1 | 6.3 | 1.00 |
+| `tobi` | 24.1 ± 0.4 | 23.5 | 25.5 | 10.77 ± 0.88 |
+
 
 ### Used Commit SHAs
 
