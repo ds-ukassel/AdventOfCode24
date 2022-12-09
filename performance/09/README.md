@@ -1,6 +1,6 @@
-# Day 09: null
+# Day 09: Rope Bridge
 
-Link to the challenge: [Day 09: null](https://adventofcode.com/2022/day/9)
+Link to the challenge: [Day 09: Rope Bridge](https://adventofcode.com/2022/day/9)
 
 ## Testing Results
 
@@ -12,12 +12,16 @@ Each branch is checked whether it returns the right results and does not return 
 | s1effen | ❌ No challenge executable | ❔ | ❔ |
 | gh0st42 | ❌ No challenge executable | ❔ | ❔ |
 | fput | ❌ No challenge executable | ❔ | ❔ |
-| CryptoCopter | ❌ 1 | ❌ | ❌ |
-| tobi | ❌ 1 | ❌ | ❌ |
+| CryptoCopter | ✔️ 0 | ✔️ | ✔️ |
+| tobi | ✔️ 0 | ✔️ | ✔️ |
 
 ## Performance Results
 
-No branch provided the correct result, so no performance measurements were taken.
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
+|:---|---:|---:|---:|---:|
+| `CryptoCopter` | 103.6 ± 3.8 | 98.4 | 113.9 | 1.00 |
+| `tobi` | 186.4 ± 7.7 | 175.2 | 197.3 | 1.80 ± 0.10 |
+
 
 ## Used Commit SHAs
 
