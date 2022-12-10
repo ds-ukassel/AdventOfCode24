@@ -39,7 +39,7 @@ echo '| ------ | ----------- | ------------- | ------------- |' >> "$RESULT"
 touch "$WORKROOT/branches_with_challenge"
 for BRANCH in $(cat "$WORKROOT/branches_no_skip"); do
     echo "🎄 Look! $BRANCH is preparing some nice ornaments for the Christmas tree!"
-    (cd "$WORKROOT/$BRANCH/$DAY" && ./prepare.sh)
+    (cd "$WORKROOT/$BRANCH/$DAY" && ./prepare.sh "$INPUT_FILE")
     if [ -f "$WORKROOT/$BRANCH/$DAY/challenge" ]; then
         echo "🎁 $BRANCH has prepared a nice gift for us!"
         echo "$BRANCH" >> "$WORKROOT/branches_with_challenge"
