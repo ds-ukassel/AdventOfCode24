@@ -339,18 +339,18 @@ Each branch is checked whether it returns the right results and does not return 
 
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `fhessel` | 94.4 ± 1.5 | 92.3 | 99.0 | 1.30 ± 0.03 |
-| `CryptoCopter` | 72.7 ± 1.2 | 71.2 | 75.6 | 1.00 |
-| `tobi` | 143.8 ± 1.0 | 142.6 | 146.0 | 1.98 ± 0.03 |
+| `fhessel` | 98.9 ± 1.9 | 96.5 | 105.0 | 4.71 ± 0.21 |
+| `CryptoCopter` | 76.5 ± 0.6 | 75.6 | 77.8 | 3.64 ± 0.15 |
+| `tobi` | 21.0 ± 0.9 | 20.6 | 30.1 | 1.00 |
 
 
 ### Used Commit SHAs
 
 | Contributor | Commit SHA | Output Testrun |
 | ----------- | ---------- | -------------- |
-| fhessel | [0117cd5](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/0117cd5c56276d0a46e921f77744c52da110e8e0/09) | [stdout](09/fhessel.txt) [stderr](09/fhessel-stderr.txt) |
-| CryptoCopter | [4b80312](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/4b80312f8316d39da0cda91734ce769735886c37/09) | [stdout](09/CryptoCopter.txt) [stderr](09/CryptoCopter-stderr.txt) |
-| tobi | [70eb6bb](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/70eb6bb457d8020115b00f3b380c780f03f349bf/09) | [stdout](09/tobi.txt) [stderr](09/tobi-stderr.txt) |
+| fhessel | [f2be36f](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/f2be36f356f0c78efdb8b07be59781ae4b03eb8e/09) | [stdout](09/fhessel.txt) [stderr](09/fhessel-stderr.txt) |
+| CryptoCopter | [34c55bb](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/34c55bb58adc8955a453c51945670a5465813528/09) | [stdout](09/CryptoCopter.txt) [stderr](09/CryptoCopter-stderr.txt) |
+| tobi | [333d6cf](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/tree/333d6cf60ca7f9499061204025d59db3edf3830c/09) | [stdout](09/tobi.txt) [stderr](09/tobi-stderr.txt) |
 
 
 ## Day 10: Cathode-Ray Tube
