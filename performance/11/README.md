@@ -1,6 +1,6 @@
-# Day 11: null
+# Day 11: Monkey in the Middle
 
-Link to the challenge: [Day 11: null](https://adventofcode.com/2022/day/11)
+Link to the challenge: [Day 11: Monkey in the Middle](https://adventofcode.com/2022/day/11)
 
 ## Testing Results
 
@@ -12,12 +12,15 @@ Each branch is checked whether it returns the right results and does not return 
 | s1effen | ❌ No challenge executable | ❔ | ❔ |
 | gh0st42 | ❌ No challenge executable | ❔ | ❔ |
 | tobi | ❌ No challenge executable | ❔ | ❔ |
-| fhessel | ❌ 1 | ❌ | ❌ |
-| fput | ❌ 1 | ❌ | ❌ |
+| fhessel | ✔️ 0 | ❌ (got `Round 1`) | ❌ (got `id:  2465, 1323, 2080, 972, 2296, 33, 23, 33, 22, 24, 33, 9, 4, 4, 14, 12`) |
+| fput | ✔️ 0 | ✔️ | ✔️ |
 
 ## Performance Results
 
-No branch provided the correct result, so no performance measurements were taken.
+| Command | Mean [s] | Min [s] | Max [s] | Relative |
+|:---|---:|---:|---:|---:|
+| `fput` | 3.553 ± 0.042 | 3.489 | 3.596 | 1.00 |
+
 
 ## Used Commit SHAs
 
