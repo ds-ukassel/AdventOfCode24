@@ -32,8 +32,8 @@ Replace your username in the script below, then follow the actions.
 GITHUB_USERNAME="Your GitHub username goes here"
 
 # Clone the repository
-git clone git@github.com:LOEWE-emergenCITY/AdventOfCode2022.git
-cd AdventOfCode2024
+git clone https://github.com/ds-ukassel/AdventOfCode24.git
+cd AdventOfCode24
 
 # (only if you want to participate in benchmarking):
 # Add yourself to the list of evaluated branches
@@ -72,9 +72,9 @@ Finally, remove the `skip` file located in your repository, so your solution is 
 
 ## Running a benchmark
 
-You can run the benchmark [in the GitHub Actions section](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/actions/workflows/benchmark.yml) of the repository (look for the "Run Workflow" button on the top-right).
+You can run the benchmark [in the GitHub Actions section](https://github.com/ds-ukassel/AdventOfCode24/actions/workflows/benchmark.yml) of the repository (look for the "Run Workflow" button on the top-right).
 Benchmarking is done for a single day, and only makes sense if there are at least two solutions.
 
 Since we are on a limited budget with runner times, please do not benchmark hour-long tasks over and over again.
 
-You can find the results in [the performance folder of the main branch](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/blob/main/performance/README.md).
+You can find the results in [the performance folder of the main branch](https://github.com/ds-ukassel/AdventOfCode24/blob/main/performance/README.md).
