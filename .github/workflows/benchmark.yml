@@ -71,6 +71,11 @@ jobs:
         with:
           path: "./tobi"
           ref: "tobi"
+      - name: Checkout 
+        uses: actions/checkout@v2
+        with:
+          path: "./"
+          ref: ""
       - name: Select Python 3.10
         uses: actions/setup-python@v2
         with:
