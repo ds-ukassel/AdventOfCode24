@@ -41,36 +41,11 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: "./main"
-      - name: Checkout fhessel
+      - name: Checkout YasinAl
         uses: actions/checkout@v2
         with:
-          path: "./fhessel"
-          ref: "fhessel"
-      - name: Checkout CryptoCopter
-        uses: actions/checkout@v2
-        with:
-          path: "./CryptoCopter"
-          ref: "CryptoCopter"
-      - name: Checkout s1effen
-        uses: actions/checkout@v2
-        with:
-          path: "./s1effen"
-          ref: "s1effen"
-      - name: Checkout gh0st42
-        uses: actions/checkout@v2
-        with:
-          path: "./gh0st42"
-          ref: "gh0st42"
-      - name: Checkout fput
-        uses: actions/checkout@v2
-        with:
-          path: "./fput"
-          ref: "fput"
-      - name: Checkout tobi
-        uses: actions/checkout@v2
-        with:
-          path: "./tobi"
-          ref: "tobi"
+          path: "./YasinAl"
+          ref: "YasinAl"
       - name: Checkout Clashsoft
         uses: actions/checkout@v2
         with:
