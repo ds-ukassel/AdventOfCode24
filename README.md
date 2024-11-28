@@ -1,6 +1,6 @@
 # Advent of Code
 
-[🎄 Challenges](https://adventofcode.com/2022) · [🏆 Leaderboard](https://adventofcode.com/2022/leaderboard/private/view/231924) · [📈 Benchmarks](https://github.com/LOEWE-emergenCITY/AdventOfCode2022/blob/main/performance/README.md)
+[🎄 Challenges](https://adventofcode.com/2024) · [🏆 Leaderboard](https://adventofcode.com/2024/leaderboard) · [📈 Benchmarks](https://github.com/ds-ukassel/AdventOfCode24/blob/main/performance/README.md)
 
 Event of code is a daily coding challange starting from Dec. 1 - Dec. 25.
 Find more information on the [Advent of Code](https://adventofcode.com/) project website.
@@ -12,7 +12,7 @@ Challenges are published each day at midnight EST, which means 6:00am CET in Ger
 The Distributed Systems group is hosting a 10 day challenge for anyone that wants to participate. The winner will be the one that has the lowest average execution time!
 To discuss challenges join the [Discord](https://discord.gg/4YQKansqNT) and select the appropriate role (AoC). **No Spoilers!** – If you want to discuss today's challenge, use the spoiler tags!
 
-There is also a [private leaderboard](https://adventofcode.com/2024/leaderboard/private), which you can join by entering the code `TBA` on the AoC website.
+There is also a [private leaderboard](https://adventofcode.com/2024/leaderboard), which you can join by entering the code `TBA` on the AoC website.
 
 ## RULES
 
