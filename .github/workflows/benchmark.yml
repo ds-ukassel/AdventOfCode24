@@ -7,6 +7,7 @@ on:
         description: The day to run this for
         type: choice
         options:
+          - "00"
           - "01"
           - "02"
           - "03"
@@ -38,21 +39,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: "./main"
       - name: Checkout YasinAl
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: "./YasinAl"
           ref: "YasinAl"
       - name: Checkout Clashsoft
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: "./Clashsoft"
           ref: "Clashsoft"
       - name: Select Python 3.10
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
       - name: Install Hyperfine

@@ -6,7 +6,7 @@ cat "$SCRIPTDIR/benchmark0.template" > "$OUTPUT"
 while read -r BRANCH; do
 cat <<EOF >> "$OUTPUT"
       - name: Checkout $BRANCH
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: "./$BRANCH"
           ref: "$BRANCH"

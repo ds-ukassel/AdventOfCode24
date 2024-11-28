@@ -7,6 +7,7 @@ on:
         description: The day to run this for
         type: choice
         options:
+          - "00"
           - "01"
           - "02"
           - "03"
@@ -38,6 +39,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: "./main"
