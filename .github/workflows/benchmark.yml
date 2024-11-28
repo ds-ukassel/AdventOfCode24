@@ -76,6 +76,11 @@ jobs:
         with:
           path: "./"
           ref: ""
+      - name: Checkout YasinAl
+        uses: actions/checkout@v2
+        with:
+          path: "./YasinAl"
+          ref: "YasinAl"
       - name: Select Python 3.10
         uses: actions/setup-python@v2
         with:
