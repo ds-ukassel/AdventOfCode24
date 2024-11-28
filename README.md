@@ -16,7 +16,7 @@ There is also a [private leaderboard](https://adventofcode.com/2024/leaderboard/
 
 ## RULES
 
-The use of ChatGPT is **strictly prohibited** as that makes it unfun and unfair! We don't want to compete with AI but with other mere mortals :) 
+The use of any AI help tools (incl. ChatGPT, Gemini, etc.) is **strictly prohibited** as that makes it unfun and unfair! We don't want to compete with AI but with other mere mortals :) 
 
 ## Setup the repository
 
