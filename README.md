@@ -44,6 +44,9 @@ git commit -m "Add $GITHUB_USERNAME to benchmarks" .github/scripts/branches .git
 # Checkout your personal branch. DO NOT commit your code to the main branch!
 git checkout -b "$GITHUB_USERNAME"
 git push origin "$GITHUB_USERNAME"
+
+# Create a pull request to add yourself to the benchmarking
+gh pr create --title "Add $GITHUB_USERNAME" --body "Add $GITHUB_USERNAME to benchmarks" --base main
 ```
 
 **For each challenge:**
