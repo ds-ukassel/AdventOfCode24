@@ -7,11 +7,16 @@ Find more information on the [Advent of Code](https://adventofcode.com/) project
 
 Challenges are published each day at midnight EST, which means 6:00am CET in Germany.
 
-## emergenCITY and AoC 2022
+## Verteilte Systeme and AoC 2024
 
-We participate in emergenCITY, to discuss challenges join the [Zulip Stream](https://zulip.emergencity.de/#narrow/stream/28-adventOfCode). **No Spoilers!** – If you want to discuss today's challenge, use the spoiler tags in Zulip!
+The Distributed Systems group is hosting a 10 day challenge for anyone that wants to participate. The winner will be the one that has the lowest average execution time!
+To discuss challenges join the [Discord](https://discord.gg/4YQKansqNT) and select the appropriate role (AoC). **No Spoilers!** – If you want to discuss today's challenge, use the spoiler tags!
 
-There is also a [private leaderboard](https://adventofcode.com/2022/leaderboard/private), which you can join by entering the code `231924-066411a9` on the AoC website.
+There is also a [private leaderboard](https://adventofcode.com/2024/leaderboard/private), which you can join by entering the code `TBA` on the AoC website.
+
+## RULES
+
+The use of ChatGPT is **strictly prohibited** as that makes it unfun and unfair! We don't want to compete with AI but with other mere mortals :) 
 
 ## Setup the repository
 
@@ -28,7 +33,7 @@ GITHUB_USERNAME="Your GitHub username goes here"
 
 # Clone the repository
 git clone git@github.com:LOEWE-emergenCITY/AdventOfCode2022.git
-cd AdventOfCode2022
+cd AdventOfCode2024
 
 # (only if you want to participate in benchmarking):
 # Add yourself to the list of evaluated branches
