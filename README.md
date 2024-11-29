@@ -75,9 +75,6 @@ Finally, remove the `skip` file located in your repository, so your solution is 
 
 ## Running a benchmark
 
-You can run the benchmark [in the GitHub Actions section](https://github.com/ds-ukassel/AdventOfCode24/actions/workflows/benchmark.yml) of the repository (look for the "Run Workflow" button on the top-right).
-Benchmarking is done for a single day, and only makes sense if there are at least two solutions.
-
-Since we are on a limited budget with runner times, please do not benchmark hour-long tasks over and over again.
+Since we are on a limited budget with runner times, We will benchmark all the submissions once or twice a day and the results will be updated automatically.
 
 You can find the results in [the performance folder of the main branch](https://github.com/ds-ukassel/AdventOfCode24/blob/main/performance/README.md).
