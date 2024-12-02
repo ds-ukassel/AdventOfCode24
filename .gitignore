@@ -1,3 +1,9 @@
 **/challenge
 
 # Feel free to extend this for your programming language in your branch.
+/.idea/.gitignore
+/.idea/AdventOfCode24.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/**/input
