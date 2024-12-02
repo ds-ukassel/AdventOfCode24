@@ -52,6 +52,11 @@ jobs:
         with:
           path: "./Clashsoft"
           ref: "Clashsoft"
+      - name: Checkout LeStegii
+        uses: actions/checkout@v4
+        with:
+          path: "./LeStegii"
+          ref: "LeStegii"
       - name: Select Python 3.10
         uses: actions/setup-python@v5
         with:
