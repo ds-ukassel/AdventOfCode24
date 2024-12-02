@@ -17,14 +17,10 @@ int main (int argc, char** argv) {
 int parts12(int argc, char** argv){
   string line;
   std::vector<std::vector<int>> data;
-	//int reading;
 	int safeReports= 0;
-	//bool first = 0;
-  int count = 0;
   ifstream input (argv[1]);
   if (input.is_open()){
     while ( getline (input,line) ){
-      count++;
       std::istringstream lineStream(line);
       std::vector<int> row;
       int number;
