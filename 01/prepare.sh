@@ -26,7 +26,7 @@ set -e
 
 # You can use this step also to compile your script, if you are using a language like C++:
 # g++ challenge.cpp -o challenge
-
+g++ challenge01.cpp -o challenge
 # If for whatever reason your toolchain is not able to create an executable with a certain name,
 # you can use mv and chmod to adjust:
 # mv generated-file.wtf challenge
